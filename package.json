@@ -1,0 +1,19 @@
+{
+  "name": "seez-demo",
+  "version": "1.0.0",
+  "description": "This is a demo project for Seez",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --config-file config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.3",
+    "cypress-iframe": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
